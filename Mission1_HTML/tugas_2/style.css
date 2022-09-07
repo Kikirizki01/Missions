@@ -1,0 +1,144 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Opensans';
+}
+
+.logo {
+    z-index: 999;
+}
+
+.bg {
+    background-color: gainsboro;
+    padding: 10px;
+}
+
+.wrapper {
+    width: 80%;
+    margin: auto;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: white;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: grey;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}    
+   
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Opensans';
+    color: black;
+}
+
+h2 {
+    font-family: 'Opensans';
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: red;
+    width: 100%;
+    line-height: 50px;
+    text-decoration: none;
+    
+}
+
+a.tbl {
+    background: whitesmoke;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: black;
+    border: 1px solid gray;
+    cursor: pointer;
+    font-weight: bold;  
+} 
+
+a.tbl:hover {
+    background: gainsboro;
+    text-decoration: none;
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;;
+}
+
+.img{
+    padding: 7%;
+    width: 150px;
+    height: 150px;
+}
+
+.author{
+    float: right;
+}
+
+.author p{
+    float: right;
+    margin-right: 10%;
+    margin: 5%;
+}
+
+.author img{
+    width: 30%;
+    border-radius: 50%;
+    float: right;
+}
+
+.greenbutton{
+    background : lightgreen;
+    padding: 1px 20px 1px 20px;
+    border-color: lightgreen;
+    color: white;
+    cursor: pointer;
+}
